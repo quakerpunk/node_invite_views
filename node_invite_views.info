@@ -1,0 +1,7 @@
+name = Node Invite Views
+description = Exposes invite data to Views
+core = 7.x
+dependencies[] = node_invite
+dependencies[] = views
+
+files[] = node_invite_views.views.inc

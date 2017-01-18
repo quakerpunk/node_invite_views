@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Establishes a hook into Views
+ */
+
+/**
+ * Implementation hook_views_api
+ */
+function node_invite_views_views_api() {
+  return array(
+    'api' => 3,
+  );
+}
